@@ -46,7 +46,7 @@ On failure a screenshot and the page source are saved to `reports/`.
 ## What the tests do
 - **Positive:** the login screen shows the username and password fields, "Войти",
   "Забыли пароль?" and "Регистрация".
-  **Positive** the login is succeed with correct email and passwordr
+- **Positive** the login is succeed with correct email and passwordr
 - **Negative:** with an empty form, touching the fields and tapping "Войти" shows
   "Пожалуйста, введите имя пользователя." and the user stays on the login screen.
   No credentials are entered and nothing is submitted.
