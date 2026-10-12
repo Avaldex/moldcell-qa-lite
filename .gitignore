@@ -1,0 +1,18 @@
+# Python / virtual environment
+venv/
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Secrets and local config
+.env
+
+# Test run artifacts (screenshots, page sources, logs)
+reports/
+
+# Binaries / SDK / IDE
+*.apk
+*.aab
+.idea/
+.vscode/
